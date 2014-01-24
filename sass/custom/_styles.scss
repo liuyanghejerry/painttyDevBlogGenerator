@@ -1,2 +1,27 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+html {
+  background: $page-bg image-url('plaid.png') top left;
+}
+
+header[role="banner"] {
+	h1 {
+		font-weight: bold;
+		font-size: 68px;
+	}
+}
+
+body>nav {
+	background: $nav-bg;
+}
+
+body>nav form .search {
+	background-color: hsl(35, 90%, 42%);
+	color: hsla(35, 49%, 28%, 1);
+}
+
+body>footer {
+	background: $footer-bg;
+	border-top: none;
+}

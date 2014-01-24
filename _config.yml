@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://blog.mrspaint.com
+url: http://blog.mrspaint.com/painttyDevBlog
 title: 茶绘君开发博客
 subtitle: 记录茶绘君的点点滴滴
 author: liuyanghejerry
@@ -29,7 +29,7 @@ email:
 root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public/
+destination: public/painttyDevBlog
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
