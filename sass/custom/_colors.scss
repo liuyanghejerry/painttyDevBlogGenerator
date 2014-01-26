@@ -10,6 +10,8 @@ $main-bg: hsla(0, 24%, 93%, 1);
 $nav-color: rgba(255, 255, 255, 1);
 $sidebar-bg: hsl(0, 12%, 86%);
 $nav-placeholder: rgba(0, 0, 0, 1);
+$nav-search-bg: hsl(38, 70%, 27%);
+$nav-search-color: hsl(35, 49%, 28%);
 
 $link-color: $subtitle-color;
 $link-color-hover: $title-color;
@@ -18,6 +20,7 @@ $link-color-active: $link-color;
 
 $footer-bg: $subtitle-color;
 $footer-color: $nav-color;
+$footer-link-color: $nav-search-bg;
 
 // $nav-bg-front: image-url('noise.png');
 // $nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));

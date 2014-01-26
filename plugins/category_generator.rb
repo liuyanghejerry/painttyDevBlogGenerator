@@ -20,6 +20,7 @@
 #                          'Category: ').
 
 require 'stringex'
+require './plugins/utf8_url'
 
 module Jekyll
 
@@ -173,6 +174,8 @@ ERR
     #
     def category_link(category)
       dir = @context.registers[:site].config['category_dir']
+      puts category
+      puts category.to_url
       "<a class='category' href='/#{dir}/#{category.to_url}/'>#{category}</a>"
     end
 

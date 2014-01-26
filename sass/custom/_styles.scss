@@ -14,11 +14,18 @@ header[role="banner"] {
 
 body>nav {
 	background: $nav-bg;
+	border-bottom: none;
+	@include border-top-radius(.4em);
 }
 
 body>nav form .search {
-	background-color: hsl(35, 90%, 42%);
-	color: hsla(35, 49%, 28%, 1);
+	background-color: $nav-search-bg;
+	color: $nav-search-color;
+}
+
+#content .blog-index a[rel=full-article] {
+	background-color: $sidebar-bg;
+	border-radius: 5px;
 }
 
 body>footer {
